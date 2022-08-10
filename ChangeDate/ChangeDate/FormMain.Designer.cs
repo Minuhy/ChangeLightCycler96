@@ -40,7 +40,7 @@ namespace ChangeDate
             this.dtpChooseTime = new System.Windows.Forms.DateTimePicker();
             this.tpOffset = new System.Windows.Forms.TabPage();
             this.lbDateTimeOffsetTips = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbDay = new System.Windows.Forms.Label();
             this.tbOffset = new System.Windows.Forms.TextBox();
             this.btnStart = new System.Windows.Forms.Button();
             this.tbFilesNewDir = new System.Windows.Forms.TextBox();
@@ -164,7 +164,7 @@ namespace ChangeDate
             // tpOffset
             // 
             this.tpOffset.Controls.Add(this.lbDateTimeOffsetTips);
-            this.tpOffset.Controls.Add(this.label1);
+            this.tpOffset.Controls.Add(this.lbDay);
             this.tpOffset.Controls.Add(this.tbOffset);
             this.tpOffset.Location = new System.Drawing.Point(4, 31);
             this.tpOffset.Margin = new System.Windows.Forms.Padding(2);
@@ -185,15 +185,15 @@ namespace ChangeDate
             this.lbDateTimeOffsetTips.TabIndex = 2;
             this.lbDateTimeOffsetTips.Text = "正数为向后偏移，负数为向前偏移，支持浮点（0.5为半天）";
             // 
-            // label1
+            // lbDay
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(317, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 22);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "天";
+            this.lbDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbDay.AutoSize = true;
+            this.lbDay.Location = new System.Drawing.Point(317, 11);
+            this.lbDay.Name = "lbDay";
+            this.lbDay.Size = new System.Drawing.Size(32, 22);
+            this.lbDay.TabIndex = 1;
+            this.lbDay.Text = "天";
             // 
             // tbOffset
             // 
@@ -229,6 +229,7 @@ namespace ChangeDate
             this.tbFilesNewDir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbFilesNewDir.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbFilesNewDir.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.tbFilesNewDir.Location = new System.Drawing.Point(4, 29);
             this.tbFilesNewDir.Margin = new System.Windows.Forms.Padding(2);
@@ -296,6 +297,7 @@ namespace ChangeDate
             // 
             this.lbAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbAbout.AutoSize = true;
+            this.lbAbout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbAbout.Location = new System.Drawing.Point(235, 388);
             this.lbAbout.Name = "lbAbout";
             this.lbAbout.Size = new System.Drawing.Size(131, 22);
@@ -344,7 +346,7 @@ namespace ChangeDate
         private System.Windows.Forms.TextBox tbFilesNewDir;
         private System.Windows.Forms.GroupBox gbLocal;
         private System.Windows.Forms.Button btnChooseDir;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbDay;
         private System.Windows.Forms.Label lbCancelMD5;
         private System.Windows.Forms.Panel panFunction;
         private System.Windows.Forms.Label lbAbout;

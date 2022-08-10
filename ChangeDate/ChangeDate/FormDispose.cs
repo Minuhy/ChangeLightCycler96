@@ -89,7 +89,7 @@ namespace ChangeDate
         {
             if (sender == timer)
             {
-                if (!isFinsh)
+                if (!isFinsh && !isStop)
                 {
                     timeCount++;
                     int min = timeCount / 60;
@@ -191,6 +191,7 @@ namespace ChangeDate
             lbCurrent.Text = "已完成";
             timer.Stop();
             btnFinsh.Text = "完成";
+            thread = null;
         }
 
         private string ShortPath(string path, int len)
