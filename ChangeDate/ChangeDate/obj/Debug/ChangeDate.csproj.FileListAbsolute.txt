@@ -1,0 +1,14 @@
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\bin\Debug\ChangeDate.exe.config
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\bin\Debug\ChangeDate.exe
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\bin\Debug\ChangeDate.pdb
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\bin\Debug\Ionic.Zip.dll
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.FormMain.resources
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.FormDispose.resources
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.LogForm.resources
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.Properties.Resources.resources
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.csproj.GenerateResource.cache
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.csproj.CoreCompileInputs.cache
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.csproj.CopyComplete
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.exe
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.pdb
+E:\Project\ChangeLightCycler96\ChangeDate\ChangeDate\obj\Debug\ChangeDate.csproj.AssemblyReference.cache
